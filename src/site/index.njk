@@ -2,7 +2,7 @@
 subtitle: No homepage, yet.
 date: 2018-08-22 12:24:50
 layout: layouts/base.njk
-templateEngineOverride: njk, md
+templateEngineOverride: njk
 ---
 
 <section class="vf-intro | embl-grid embl-grid--has-centered-content">
@@ -35,13 +35,22 @@ templateEngineOverride: njk, md
         <!-- empty -->
     </div>
     <div class="vf-content">
-        <h3>Microplastics: an invisible threat</h3>
-        <p>From the Mediterranean to the Pacific, from the Arctic to the Antarctic, the observations are clear: traces
-            of plastic are prevalent throughout the world’s seas and oceans. While the build-up of plastic waste on beaches
-            is eye-catching, increasing concentrations of microplastics present a less obvious danger.</p>
+
+<img src="{{ '/images/C-David-Sauveur---Fondation-Tara-Ocean.jpeg' | url }}" />
+
+{% markdown %}
+    
+### Microplastics: an invisible threat
+
+From the Mediterranean to the Pacific, from the Arctic to the Antarctic, the observations are clear: traces
+of plastic are prevalent throughout the world’s seas and oceans. While the build-up of plastic waste on
+beaches is eye-catching, increasing concentrations of microplastics present a less obvious danger.
+
+{% endmarkdown %}
+
+        </p>
         <p>These plastic particles and the potentially toxic chemicals they may carry with them, such as solvents, dyes
-            and
-            pesticides, are broken down by the Sun’s ultraviolet radiation and the motion of the waves, and interact
+            and pesticides, are broken down by the Sun’s ultraviolet radiation and the motion of the waves, and interact
             with
             many marine organisms. Recent studies have found that most marine species, including the tiny plankton that
             form
@@ -105,22 +114,22 @@ templateEngineOverride: njk, md
         <!-- empty -->
     </div>
     <div class="vf-content">
-            <h2>EMBL and Tara</h2>
-            <p>EMBL&rsquo;s collaboration with <em>Tara</em> began with the <a
-                    href="https://www.embl.de/tara/tara-oceans-science/index.html" title="Tara Oceans science">Tara
-                    Oceans
-                    expedition</a> (2009&ndash;2013). The project was initiated by EMBL group leader Eric Karsenti, who
-                led
-                the mission&rsquo;s scientific activities. EMBL coordinates the expedition&rsquo;s scientific
-                consortium,
-                which includes more than 100 scientists from 18 partner institutions. &ldquo;EMBL continues to make
-                crucial
-                contributions in data analysis, data storage, and in making all data publicly available,&rdquo; says
-                EMBL
-                Director General Edith Heard. EMBL&rsquo;s European Bioinformatics Institute (EMBL-EBI) stores the <a
-                    href="https://www.ebi.ac.uk/metagenomics/studies/ERP001736" target="_blank">genomics data</a>
-                produced
-                by the expedition.</p>
+        <h2>EMBL and Tara</h2>
+        <p>EMBL&rsquo;s collaboration with <em>Tara</em> began with the <a
+                href="https://www.embl.de/tara/tara-oceans-science/index.html" title="Tara Oceans science">Tara
+                Oceans
+                expedition</a> (2009&ndash;2013). The project was initiated by EMBL group leader Eric Karsenti, who
+            led
+            the mission&rsquo;s scientific activities. EMBL coordinates the expedition&rsquo;s scientific
+            consortium,
+            which includes more than 100 scientists from 18 partner institutions. &ldquo;EMBL continues to make
+            crucial
+            contributions in data analysis, data storage, and in making all data publicly available,&rdquo; says
+            EMBL
+            Director General Edith Heard. EMBL&rsquo;s European Bioinformatics Institute (EMBL-EBI) stores the <a
+                href="https://www.ebi.ac.uk/metagenomics/studies/ERP001736" target="_blank">genomics data</a>
+            produced
+            by the expedition.</p>
     </div>
 </section>
 
